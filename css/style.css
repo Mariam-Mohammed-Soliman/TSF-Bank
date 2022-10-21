@@ -1,0 +1,233 @@
+/*start global*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #fafafa;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+/***alert canvas***/
+.alertCanvas {
+  height: 17rem;
+  width: 30%;
+  margin: 5rem auto;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1rem;
+}
+.alertClose {
+  font-size: 1.45rem;
+}
+.alertApperTrue {
+  position: absolute;
+  font-size: 6rem;
+  top: 10%;
+  left: 40%;
+  color: #164847;
+}
+.alertApper {
+  position: absolute;
+  font-size: 6rem;
+  top: 10%;
+  left: 40%;
+  color: #a50a21;
+}
+.alertTextSuccess {
+  margin-top: 4rem;
+  font-size: 3rem;
+  color: #08313c;
+}
+.alertText {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  color: #8a0d0d;
+}
+nav {
+  height: 4rem;
+  transition: all 0.2s ease-in-out;
+}
+.navScroll {
+  background-color: #e8e8e8 !important;
+  box-shadow: 3px 4px 12px 0px #a5abac;
+}
+nav .nav-item {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+nav .nav-item a {
+  color: #126076 !important;
+  margin: 0 1rem;
+}
+nav .nav-item a:hover {
+  color: #3c93ab !important;
+}
+.navbar-brand a{
+  height: 2.3rem;
+  color:#00274f;
+}
+nav img {
+  width: 70%;
+  height: inherit;
+}
+/***table***/
+table {
+  box-shadow: 3px 4px 12px 2px #99b3b7;
+}
+.table-responsive {
+  overflow-x: visible;
+}
+.table-dark {
+  --bs-table-bg: #003e4f !important;
+}
+tbody {
+  text-transform: none !important;
+}
+tr {
+  background: white;
+}
+tr:hover {
+  background: white;
+  cursor: pointer;
+  background-color: #f5f7f7;
+}
+/*end global*/
+/************************************/
+/*start home page style*/
+#home {
+  height: 90%;
+  background-color: #f5f5f5;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+}
+#home .introText {
+  padding-top: 8rem;
+}
+#home .introText .h1 {
+  color: #517fb1;
+  font-size: 8rem;
+}
+#home .introText .h2 {
+  color: #00274f;
+  font-size: 4rem;
+}
+
+#home .btn {
+  background-color: #00274f !important;
+  color: white;
+  width: 30%;
+  height: 3.5rem;
+  font-size: 1.1rem;
+  margin: auto;
+  text-transform: uppercase;
+}
+#home .btn:hover {
+  background-color: #1a4e82 !important;
+}
+#about .introText .h2 {
+  color: #00274f;
+  font-size: 2.5rem;
+}
+#about .aboutImg img{
+  width:70%;
+  margin-left: 7rem;
+}
+#about .infoText{
+  padding-top:5rem;
+}
+#about .infoText div{
+  cursor: pointer;
+  color:#013971
+}
+#about .infoText p{
+  margin: 2rem 8rem 0 0;
+  color:#6d6d6d
+}
+/*end home page style*/
+/************************************/
+/*start transfer page style*/
+#transfer{
+  padding: 5rem 0;
+
+}
+#transfer .operation {
+  height: 20rem;
+  background-color: inherit;
+}
+#transfer form{
+  background-color: #FAFAFA;
+}
+#transfer .btn {
+  background-color: #00274f !important;
+  color: white;
+  width: 20%;
+  height: 3rem;
+  font-size: 1rem;
+  margin: auto;
+  text-transform: uppercase;
+}
+#transfer .btn:hover {
+  background-color: #1a4e82 !important;
+}
+/*end transfer page style*/
+/************************************/
+/*start history page style*/
+.history{
+  padding: 5rem 0;
+}
+/*end history page style*/
+/************************************/
+/*start footer page style*/
+footer {
+  background-color: #434343;
+  height: 22rem;
+  padding-bottom: 5rem !important;
+}
+footer .row {
+  padding: 1rem 30rem;
+}
+footer .row div {
+  height: 3rem;
+  width: 3rem;
+  background-color: #00274f;
+  border-radius: 50px;
+  line-height: 2;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+footer .row div:hover {
+  background-color: #ede8e8;
+}
+footer .row div:hover a {
+  color: #00274f !important;
+  font-size: 1.6rem;
+}
+footer .row .linkedin {
+  padding-left: 0.9rem;
+}
+footer .copyRight p {
+  color: #bfbfbf !important;
+}
+footer .copyRight p a {
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+footer .copyRight p a:hover {
+  font-size: 1.01rem;
+  color: #f3ecec;
+  text-decoration: underline;
+}
+/*end footer page style*/
+/************************************/
